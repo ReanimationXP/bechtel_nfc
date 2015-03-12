@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DCAEDDFF19D367FC002C9D6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAEDDFE19D367FC002C9D6D /* AppDelegate.swift */; };
+		DCAEDE0219D367FC002C9D6D /* BechtelNFC.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DCAEDE0019D367FC002C9D6D /* BechtelNFC.xcdatamodeld */; };
+		DCAEDE0419D367FC002C9D6D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAEDE0319D367FC002C9D6D /* ViewController.swift */; };
+		DCAEDE0719D367FC002C9D6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCAEDE0519D367FC002C9D6D /* Main.storyboard */; };
+		DCAEDE0919D367FC002C9D6D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCAEDE0819D367FC002C9D6D /* Images.xcassets */; };
+		DCAEDE0C19D367FC002C9D6D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCAEDE0A19D367FC002C9D6D /* LaunchScreen.xib */; };
+		DCAEDE1819D367FC002C9D6D /* BechtelNFCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAEDE1719D367FC002C9D6D /* BechtelNFCTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DCAEDE1219D367FC002C9D6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCAEDDF119D367FC002C9D6D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCAEDDF819D367FC002C9D6D;
+			remoteInfo = BechtelNFC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DCAEDDF919D367FC002C9D6D /* BechtelNFC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BechtelNFC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCAEDDFD19D367FC002C9D6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCAEDDFE19D367FC002C9D6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DCAEDE0119D367FC002C9D6D /* BechtelNFC.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BechtelNFC.xcdatamodel; sourceTree = "<group>"; };
+		DCAEDE0319D367FC002C9D6D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DCAEDE0619D367FC002C9D6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DCAEDE0819D367FC002C9D6D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DCAEDE0B19D367FC002C9D6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DCAEDE1119D367FC002C9D6D /* BechtelNFCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BechtelNFCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCAEDE1619D367FC002C9D6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCAEDE1719D367FC002C9D6D /* BechtelNFCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BechtelNFCTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCAEDDF619D367FC002C9D6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCAEDE0E19D367FC002C9D6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DCAEDDF019D367FC002C9D6D = {
+			isa = PBXGroup;
+			children = (
+				DCAEDDFB19D367FC002C9D6D /* BechtelNFC */,
+				DCAEDE1419D367FC002C9D6D /* BechtelNFCTests */,
+				DCAEDDFA19D367FC002C9D6D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DCAEDDFA19D367FC002C9D6D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCAEDDF919D367FC002C9D6D /* BechtelNFC.app */,
+				DCAEDE1119D367FC002C9D6D /* BechtelNFCTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCAEDDFB19D367FC002C9D6D /* BechtelNFC */ = {
+			isa = PBXGroup;
+			children = (
+				DCAEDDFE19D367FC002C9D6D /* AppDelegate.swift */,
+				DCAEDE0319D367FC002C9D6D /* ViewController.swift */,
+				DCAEDE0519D367FC002C9D6D /* Main.storyboard */,
+				DCAEDE0819D367FC002C9D6D /* Images.xcassets */,
+				DCAEDE0A19D367FC002C9D6D /* LaunchScreen.xib */,
+				DCAEDE0019D367FC002C9D6D /* BechtelNFC.xcdatamodeld */,
+				DCAEDDFC19D367FC002C9D6D /* Supporting Files */,
+			);
+			path = BechtelNFC;
+			sourceTree = "<group>";
+		};
+		DCAEDDFC19D367FC002C9D6D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DCAEDDFD19D367FC002C9D6D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DCAEDE1419D367FC002C9D6D /* BechtelNFCTests */ = {
+			isa = PBXGroup;
+			children = (
+				DCAEDE1719D367FC002C9D6D /* BechtelNFCTests.swift */,
+				DCAEDE1519D367FC002C9D6D /* Supporting Files */,
+			);
+			path = BechtelNFCTests;
+			sourceTree = "<group>";
+		};
+		DCAEDE1519D367FC002C9D6D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DCAEDE1619D367FC002C9D6D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCAEDDF819D367FC002C9D6D /* BechtelNFC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCAEDE1B19D367FC002C9D6D /* Build configuration list for PBXNativeTarget "BechtelNFC" */;
+			buildPhases = (
+				DCAEDDF519D367FC002C9D6D /* Sources */,
+				DCAEDDF619D367FC002C9D6D /* Frameworks */,
+				DCAEDDF719D367FC002C9D6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BechtelNFC;
+			productName = BechtelNFC;
+			productReference = DCAEDDF919D367FC002C9D6D /* BechtelNFC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DCAEDE1019D367FC002C9D6D /* BechtelNFCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCAEDE1E19D367FC002C9D6D /* Build configuration list for PBXNativeTarget "BechtelNFCTests" */;
+			buildPhases = (
+				DCAEDE0D19D367FC002C9D6D /* Sources */,
+				DCAEDE0E19D367FC002C9D6D /* Frameworks */,
+				DCAEDE0F19D367FC002C9D6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCAEDE1319D367FC002C9D6D /* PBXTargetDependency */,
+			);
+			name = BechtelNFCTests;
+			productName = BechtelNFCTests;
+			productReference = DCAEDE1119D367FC002C9D6D /* BechtelNFCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCAEDDF119D367FC002C9D6D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = Bechtel;
+				TargetAttributes = {
+					DCAEDDF819D367FC002C9D6D = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					DCAEDE1019D367FC002C9D6D = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = DCAEDDF819D367FC002C9D6D;
+					};
+				};
+			};
+			buildConfigurationList = DCAEDDF419D367FC002C9D6D /* Build configuration list for PBXProject "BechtelNFC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DCAEDDF019D367FC002C9D6D;
+			productRefGroup = DCAEDDFA19D367FC002C9D6D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCAEDDF819D367FC002C9D6D /* BechtelNFC */,
+				DCAEDE1019D367FC002C9D6D /* BechtelNFCTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCAEDDF719D367FC002C9D6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCAEDE0719D367FC002C9D6D /* Main.storyboard in Resources */,
+				DCAEDE0C19D367FC002C9D6D /* LaunchScreen.xib in Resources */,
+				DCAEDE0919D367FC002C9D6D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCAEDE0F19D367FC002C9D6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCAEDDF519D367FC002C9D6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCAEDE0419D367FC002C9D6D /* ViewController.swift in Sources */,
+				DCAEDDFF19D367FC002C9D6D /* AppDelegate.swift in Sources */,
+				DCAEDE0219D367FC002C9D6D /* BechtelNFC.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCAEDE0D19D367FC002C9D6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCAEDE1819D367FC002C9D6D /* BechtelNFCTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DCAEDE1319D367FC002C9D6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCAEDDF819D367FC002C9D6D /* BechtelNFC */;
+			targetProxy = DCAEDE1219D367FC002C9D6D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DCAEDE0519D367FC002C9D6D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCAEDE0619D367FC002C9D6D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DCAEDE0A19D367FC002C9D6D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCAEDE0B19D367FC002C9D6D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DCAEDE1919D367FC002C9D6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DCAEDE1A19D367FC002C9D6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCAEDE1C19D367FC002C9D6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BechtelNFC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DCAEDE1D19D367FC002C9D6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BechtelNFC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DCAEDE1F19D367FC002C9D6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BechtelNFCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BechtelNFC.app/BechtelNFC";
+			};
+			name = Debug;
+		};
+		DCAEDE2019D367FC002C9D6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BechtelNFCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BechtelNFC.app/BechtelNFC";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCAEDDF419D367FC002C9D6D /* Build configuration list for PBXProject "BechtelNFC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCAEDE1919D367FC002C9D6D /* Debug */,
+				DCAEDE1A19D367FC002C9D6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCAEDE1B19D367FC002C9D6D /* Build configuration list for PBXNativeTarget "BechtelNFC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCAEDE1C19D367FC002C9D6D /* Debug */,
+				DCAEDE1D19D367FC002C9D6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DCAEDE1E19D367FC002C9D6D /* Build configuration list for PBXNativeTarget "BechtelNFCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCAEDE1F19D367FC002C9D6D /* Debug */,
+				DCAEDE2019D367FC002C9D6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DCAEDE0019D367FC002C9D6D /* BechtelNFC.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DCAEDE0119D367FC002C9D6D /* BechtelNFC.xcdatamodel */,
+			);
+			currentVersion = DCAEDE0119D367FC002C9D6D /* BechtelNFC.xcdatamodel */;
+			path = BechtelNFC.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DCAEDDF119D367FC002C9D6D /* Project object */;
+}
